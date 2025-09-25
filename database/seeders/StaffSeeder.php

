@@ -1,0 +1,23 @@
+<?php
+namespace Database\Seeders;
+use App\Models\User;
+use Illuminate\Database\Seeder;
+use Spatie\Permission\Models\Role;
+
+class StaffSeeder extends Seeder {
+    public function run(): void {
+        Role::create(['name' => 'staff']);
+        $staff = User::create([
+            'name' => 'Staff User',
+            'email' => 'staff@wealthbuild.com',
+            'password' => bcrypt('password'),
+            'role' => 'staff',
+        ]);
+        $staff->assignRole('staff');
+
+        // Additional staff for testing
+        User::factory()->count(2)->create(['role' => 'staff'])->each(function ($user) {
+            $user->assignRole('staff');
+        });
+    }
+}
