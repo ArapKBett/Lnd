@@ -1,0 +1,4 @@
+<p>Dear {{ $loan->client->name }},</p>
+<p>Your loan of KSh {{ number_format($loan->amount, 2) }} is nearing its due date.</p>
+<p>Please make a payment via M-Pesa or Crypto to avoid penalties.</p>
+<p>Thank you, WealthBuild Loans</p>
