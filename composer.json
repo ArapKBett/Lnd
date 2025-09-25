@@ -1,0 +1,15 @@
+{
+    "name": "laravel/laravel",
+    "type": "project",
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^11.0",
+        "spatie/laravel-permission": "^6.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "intervention/image": "^3.0",
+        "iankumu/mpesa": "^2.0"
+    },
+    "require-dev": {
+        "enlightn/laravel-security-checker": "^2.0"
+    }
+}
