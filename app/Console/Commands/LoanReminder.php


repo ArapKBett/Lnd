@@ -1,0 +1,19 @@
+<?php
+namespace App\Console\Commands;
+use Illuminate\Console\Command;
+use App\Models\Loan;
+use Illuminate\Support\Facades\Mail;
+
+class LoanReminder extends Command {
+    protected $signature = 'loans:remind';
+    protected $description = 'Send reminders for due loans';
+
+    public function handle() {
+        $loans = Loan::where('status', 'approved')->where('term_months', '<=', 1)->get();
+        foreach ($loans as $loan) {
+            // Example: Send email reminder (configure Mail in .env)
+            Mail::to($loan->client->email)->send(new \App\Mail\LoanReminder($loan));
+        }
+        $this->info('Loan reminders sent: ' . $loans->count());
+    }
+}
