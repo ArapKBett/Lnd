@@ -2,7 +2,7 @@
     "name": "laravel/laravel",
     "type": "project",
     "require": {
-        "php": "^8.2",
+        "php": "^8.2|^8.4",
         "laravel/framework": "^11.0",
         "spatie/laravel-permission": "^6.0",
         "guzzlehttp/guzzle": "^7.0",
