@@ -5,11 +5,10 @@ use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 
 class Kernel extends ConsoleKernel {
     protected $commands = [
-        // Register custom commands here
+        \App\Console\Commands\LoanReminder::class, // Register command
     ];
 
     protected function schedule(Schedule $schedule): void {
-        // Example: Send reminders for due loans
         $schedule->command('loans:remind')->daily();
     }
 
