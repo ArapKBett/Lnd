@@ -11,11 +11,8 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('savings', function (Blueprint $table) {
-            $table->id();
-            $table->foreignId('client_id')->constrained('users');
-            $table->decimal('balance', 10, 2)->default(0);
-            $table->timestamps();
+        Schema::table('users', function (Blueprint $table) {
+            //
         });
     }
 
@@ -24,6 +21,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('savings');
+        Schema::table('users', function (Blueprint $table) {
+            //
+        });
     }
 };
