@@ -5,7 +5,7 @@
     <div class="bg-white p-6 rounded-lg shadow-md">
         <div class="flex items-center">
             <div class="p-3 rounded-full bg-blue-100 text-blue-600">
-                <i class="fas fa-users text-xl"></i>
+                <i class="fas fa-clock text-xl"></i>
             </div>
             <div class="ml-4">
                 <h3 class="text-lg font-semibold text-gray-600">Pending Loans</h3>
@@ -41,18 +41,30 @@
 
 <div class="bg-white p-6 rounded-lg shadow-md">
     <h2 class="text-xl font-semibold mb-4">Loan Management</h2>
-    <p class="text-gray-600">Welcome to the Staff Dashboard. Use this panel to manage loan applications and client requests.</p>
+    <p class="text-gray-600 mb-6">Welcome to the Staff Dashboard. Use this panel to manage loan applications and client requests.</p>
     
-    <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
         <div class="border-l-4 border-blue-500 bg-blue-50 p-4">
             <h3 class="font-semibold text-blue-800">Pending Review</h3>
             <p class="text-blue-600">{{ $pendingLoans }} loans awaiting your approval</p>
+            <a href="{{ route('staff.loans.index') }}" class="inline-block mt-2 bg-blue-600 text-white px-4 py-2 rounded text-sm hover:bg-blue-700">
+                Manage Loans
+            </a>
         </div>
         
         <div class="border-l-4 border-green-500 bg-green-50 p-4">
             <h3 class="font-semibold text-green-800">Approved Loans</h3>
             <p class="text-green-600">{{ $approvedLoans }} loans successfully processed</p>
+            <a href="{{ route('staff.loans.index') }}" class="inline-block mt-2 bg-green-600 text-white px-4 py-2 rounded text-sm hover:bg-green-700">
+                View All
+            </a>
         </div>
+    </div>
+
+    <div class="text-center">
+        <a href="{{ route('staff.loans.index') }}" class="bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700">
+            <i class="fas fa-tasks mr-2"></i>Go to Loan Management
+        </a>
     </div>
 </div>
 @endsection

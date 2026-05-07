@@ -12,7 +12,7 @@ return new class extends Migration {
             $table->integer('term_months');
             $table->decimal('interest_rate', 5, 2);
             $table->decimal('limit_boost', 10, 2)->default(0);  // From savings
-            $table->enum('status', ['pending', 'approved', 'rejected', 'repaid'])->default('pending');
+            $table->enum('status', ['pending', 'approved', 'rejected', 'disbursed', 'completed', 'repaid'])->default('pending');
             $table->timestamps();
         });
     }
