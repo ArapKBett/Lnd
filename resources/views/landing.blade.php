@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QuantumLoans | Next-Gen Financial Solutions</title>
+    <title>WealthBuild Loans | Smart Lending Solutions</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -98,9 +98,9 @@
                     <div class="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
                         <i class="fas fa-chart-line text-white text-xl"></i>
                     </div>
-                    <span class="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">QuantumLoans</span>
+                    <span class="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">WealthBuild</span>
                 </div>
-                
+
                 <div class="flex items-center space-x-6">
                     <!-- Security Status Indicator -->
                     <div class="flex items-center space-x-2">
@@ -108,9 +108,9 @@
                         <span class="text-sm font-medium">Secure Connection</span>
                         <i class="fas fa-shield-alt text-green-400"></i>
                     </div>
-                    
+
                     <a href="/login" class="bg-gradient-to-r from-blue-500 to-purple-600 px-6 py-2 rounded-full font-semibold hover:from-blue-600 hover:to-purple-700 transition-all duration-300 neon-glow">
-                        Secure Login
+                        Login
                     </a>
                 </div>
             </nav>
@@ -122,10 +122,10 @@
                 <div class="space-y-8">
                     <div class="space-y-6">
                         <h1 class="text-5xl lg:text-7xl font-bold leading-tight">
-                            <span class="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Quantum Financial Solutions</span>
+                            <span class="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Smart Lending, Built for You</span>
                         </h1>
                         <p class="text-xl lg:text-2xl text-gray-300 font-light">
-                            AI-Powered Lending • Blockchain Security • Instant Global Transactions
+                            Fast Approvals • Secure Payments • M-Pesa & Crypto Support
                         </p>
                         
                         <div class="flex flex-wrap gap-4">
@@ -178,10 +178,10 @@
             <div class="container mx-auto px-4">
                 <div class="text-center mb-16">
                     <h2 class="text-4xl lg:text-5xl font-bold mb-6">
-                        <span class="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">360° Financial Ecosystem</span>
+                        <span class="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Everything You Need to Borrow Smart</span>
                     </h2>
                     <p class="text-xl text-gray-300 max-w-3xl mx-auto">
-                        Experience our immersive financial platform with real-time analytics, AI-driven insights, and blockchain security
+                        Apply for loans, track repayments, and boost your credit limit through our savings-backed CreditBoost feature
                     </p>
                 </div>
                 
@@ -200,7 +200,7 @@
                                 </div>
                                 <div>
                                     <h3 class="text-xl font-semibold mb-2">Instant Approval Engine</h3>
-                                    <p class="text-gray-300">AI-powered credit scoring with 99.7% accuracy. Get approved in under 60 seconds.</p>
+                                    <p class="text-gray-300">Fast credit assessment and loan approval. Get a decision within minutes of applying.</p>
                                 </div>
                             </div>
                         </div>
@@ -211,8 +211,8 @@
                                     <i class="fas fa-shield-alt text-white text-xl"></i>
                                 </div>
                                 <div>
-                                    <h3 class="text-xl font-semibold mb-2">Quantum Security</h3>
-                                    <p class="text-gray-300">Military-grade encryption with biometric authentication and real-time fraud detection.</p>
+                                    <h3 class="text-xl font-semibold mb-2">Bank-Grade Security</h3>
+                                    <p class="text-gray-300">Industry-standard encryption with session tracking and real-time fraud detection.</p>
                                 </div>
                             </div>
                         </div>
@@ -318,7 +318,7 @@
                 <div class="grid md:grid-cols-3 gap-8">
                     <div class="glass-effect p-8 rounded-xl transform hover:rotate-3 hover:scale-105 transition-all duration-500">
                         <div class="text-6xl text-blue-400 mb-4">"</div>
-                        <p class="text-gray-300 mb-6">QuantumLoans transformed our financial operations. The AI-driven insights and real-time analytics have increased our efficiency by 40%.</p>
+                        <p class="text-gray-300 mb-6">WealthBuild transformed our financial operations. The real-time analytics and CreditBoost feature have increased our lending efficiency by 40%.</p>
                         <div class="flex items-center">
                             <div class="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full mr-4"></div>
                             <div>
@@ -330,7 +330,7 @@
                     
                     <div class="glass-effect p-8 rounded-xl transform hover:rotate-3 hover:scale-105 transition-all duration-500">
                         <div class="text-6xl text-green-400 mb-4">"</div>
-                        <p class="text-gray-300 mb-6">The security features are unparalleled. We've eliminated fraud completely since switching to QuantumLoans' quantum encryption.</p>
+                        <p class="text-gray-300 mb-6">The security features are unparalleled. We've eliminated fraud completely since switching to WealthBuild's advanced encryption.</p>
                         <div class="flex items-center">
                             <div class="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full mr-4"></div>
                             <div>
@@ -361,7 +361,7 @@
                 <div class="max-w-4xl mx-auto">
                     <div class="mb-8">
                         <div class="w-20 h-20 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full mx-auto mb-6 flex items-center justify-center">
-                            <i class="fas fa-robot text-white text-3xl"></i>
+                            <i class="fas fa-hand-holding-usd text-white text-3xl"></i>
                         </div>
                     </div>
                     
@@ -370,7 +370,7 @@
                     </h2>
                     
                     <p class="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-                        Join thousands of businesses and individuals who are revolutionizing their financial journey with QuantumLoans' AI-powered platform.
+                        Join thousands of businesses and individuals who are growing their financial future with WealthBuild's savings-backed lending platform.
                     </p>
                     
                     <div class="flex flex-wrap justify-center gap-4 mb-12">
@@ -420,10 +420,10 @@
                             <div class="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
                                 <i class="fas fa-chart-line text-white text-xl"></i>
                             </div>
-                            <span class="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">QuantumLoans</span>
+                            <span class="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">WealthBuild</span>
                         </div>
-                        
-                        <p class="text-gray-400 mb-6">Revolutionizing global finance with AI-powered lending and quantum security.</p>
+
+                        <p class="text-gray-400 mb-6">Smart lending solutions with M-Pesa and crypto payment support.</p>
                         
                         <div class="flex space-x-4">
                             <a href="#" class="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center hover:scale-110 transition-transform">
@@ -444,8 +444,8 @@
                     <div>
                         <h4 class="text-lg font-semibold mb-4">Products</h4>
                         <ul class="space-y-2 text-gray-400">
-                            <li><a href="#" class="hover:text-white transition-colors">AI Lending</a></li>
-                            <li><a href="#" class="hover:text-white transition-colors">Quantum Security</a></li>
+                            <li><a href="#" class="hover:text-white transition-colors">Personal Loans</a></li>
+                            <li><a href="#" class="hover:text-white transition-colors">CreditBoost</a></li>
                             <li><a href="#" class="hover:text-white transition-colors">Global Payments</a></li>
                             <li><a href="#" class="hover:text-white transition-colors">Financial Analytics</a></li>
                             <li><a href="#" class="hover:text-white transition-colors">Blockchain Solutions</a></li>
@@ -477,7 +477,7 @@
                 
                 <div class="border-t border-gray-700 pt-8 flex flex-wrap justify-between items-center">
                     <div class="text-gray-400 text-sm">
-                        © 2025 QuantumLoans. All rights reserved.
+                        &copy; {{ date('Y') }} WealthBuild Loans. All rights reserved.
                     </div>
                     
                     <div class="flex space-x-6 text-sm text-gray-400">
@@ -542,7 +542,7 @@
                 new Chart(loanEcosystemCtx, {
                     type: 'doughnut',
                     data: {
-                        labels: ['AI Lending', 'Quantum Security', 'Global Payments', 'Analytics', 'Blockchain'],
+                        labels: ['Personal Loans', 'CreditBoost', 'M-Pesa Payments', 'Loan Tracking', 'Crypto Payments'],
                         datasets: [{
                             data: [35, 20, 15, 20, 10],
                             backgroundColor: [

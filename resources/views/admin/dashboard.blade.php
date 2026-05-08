@@ -66,8 +66,8 @@
     <div class="bg-gradient-to-r from-blue-600 to-purple-700 text-white rounded-xl p-6 mb-6 shadow-lg">
         <div class="flex flex-wrap justify-between items-center">
             <div>
-                <h1 class="text-3xl font-bold mb-2">QuantumLoans Admin Dashboard</h1>
-                <p class="text-blue-100">Real-time financial intelligence and security monitoring</p>
+                <h1 class="text-3xl font-bold mb-2">WealthBuild Admin Dashboard</h1>
+                <p class="text-blue-100">Loan portfolio management and security monitoring</p>
             </div>
             
             <div class="flex items-center space-x-6">

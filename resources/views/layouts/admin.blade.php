@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin - QuantumLoans</title>
+    <title>Admin - WealthBuild Loans</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100">
     <nav class="bg-purple-900 text-white p-4">
         <div class="container mx-auto flex justify-between items-center">
-            <a href="{{ route('admin.dashboard') }}" class="text-xl font-bold">QuantumLoans Admin</a>
+            <a href="{{ route('admin.dashboard') }}" class="text-xl font-bold">WealthBuild Admin</a>
             <div class="flex items-center space-x-4">
                 <a href="{{ route('admin.dashboard') }}" class="hover:text-purple-200">Dashboard</a>
                 <a href="{{ route('admin.clients.index') }}" class="hover:text-purple-200">Clients</a>
@@ -43,7 +43,7 @@
         @yield('content')
     </main>
     <footer class="bg-black text-white text-center py-4">
-        <p>&copy; {{ date('Y') }} QuantumLoans. Built by ARAP.</p>
+        <p>&copy; {{ date('Y') }} WealthBuild Loans. Built by ARAP.</p>
     </footer>
 </body>
 </html>

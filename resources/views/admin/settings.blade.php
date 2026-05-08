@@ -10,7 +10,7 @@
             <div class="flex justify-between items-center py-3 border-b">
                 <div>
                     <h3 class="font-medium">Application Name</h3>
-                    <p class="text-sm text-gray-500">QuantumLoans / WealthBuild Loans</p>
+                    <p class="text-sm text-gray-500">WealthBuild Loans</p>
                 </div>
             </div>
             <div class="flex justify-between items-center py-3 border-b">

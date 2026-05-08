@@ -1,4 +1,4 @@
-# WealthBuild Loans (QuantumLoans)
+# WealthBuild Loans
 
 A Laravel 11 loan lending platform with role-based dashboards, M-Pesa/Crypto payment integration, and a CreditBoost savings feature.
 
