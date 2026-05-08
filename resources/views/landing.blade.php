@@ -74,18 +74,11 @@
             height: 400px;
         }
         
-        .panorama-container {
-            width: 100%;
-            height: 500px;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
-        }
     </style>
 </head>
 <body class="gradient-bg text-white">
     <!-- Security Headers -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.tailwindcss.com https://unpkg.com https://cdn.jsdelivr.net https://cdn.pannellum.org; style-src 'self' https://fonts.googleapis.com https://cdn.pannellum.org; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data:; connect-src 'self'; frame-src 'none'; object-src 'none';">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://unpkg.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data:; connect-src 'self'; frame-src 'none'; object-src 'none';">
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
     <meta http-equiv="X-Frame-Options" content="DENY">
     <meta http-equiv="X-XSS-Protection" content="1; mode=block">
@@ -166,9 +159,39 @@
                     </div>
                 </div>
                 
-                <!-- 360° Financial Visualization -->
-                <div class="panorama-container floating-animation">
-                    <div id="financial-panorama"></div>
+                <!-- How It Works -->
+                <div class="glass-effect rounded-2xl p-8 floating-animation">
+                    <h3 class="text-2xl font-bold mb-8 text-center">How It Works</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center flex-shrink-0 text-lg font-bold">1</div>
+                            <div>
+                                <h4 class="font-semibold text-lg">Create Your Account</h4>
+                                <p class="text-gray-400 text-sm">Sign up in minutes with your ID and M-Pesa number.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-gradient-to-r from-purple-500 to-purple-600 rounded-full flex items-center justify-center flex-shrink-0 text-lg font-bold">2</div>
+                            <div>
+                                <h4 class="font-semibold text-lg">Save & Boost Your Limit</h4>
+                                <p class="text-gray-400 text-sm">Every KSh 1 saved gives you KSh 5 in borrowing power with CreditBoost.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-gradient-to-r from-green-500 to-green-600 rounded-full flex items-center justify-center flex-shrink-0 text-lg font-bold">3</div>
+                            <div>
+                                <h4 class="font-semibold text-lg">Apply for a Loan</h4>
+                                <p class="text-gray-400 text-sm">Choose your amount and term. Get a fast approval decision.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-gradient-to-r from-emerald-500 to-teal-600 rounded-full flex items-center justify-center flex-shrink-0 text-lg font-bold">4</div>
+                            <div>
+                                <h4 class="font-semibold text-lg">Receive Funds Instantly</h4>
+                                <p class="text-gray-400 text-sm">Get disbursed directly to your M-Pesa or crypto wallet.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -491,26 +514,8 @@
         </footer>
     </div>
     
-    <!-- JavaScript Libraries -->
-    <script src="https://cdn.pannellum.org/2.5/pannellum.js"></script>
-    <link rel="stylesheet" href="https://cdn.pannellum.org/2.5/pannellum.css"/>
-    
-    <!-- Initialize 360° Panorama -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Initialize financial panorama
-            if (document.getElementById('financial-panorama')) {
-                pannellum.viewer('financial-panorama', {
-                    type: 'equirectangular',
-                    panorama: '{{ asset("images/financial-360.jpg") }}',
-                    autoLoad: true,
-                    autoRotate: -2,
-                    showZoomCtrl: false,
-                    showFullscreenCtrl: false,
-                    compass: true
-                });
-            }
-            
             // Animate counters
             function animateCounter(element, target) {
                 const duration = 2000;
